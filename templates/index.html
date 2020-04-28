@@ -1,0 +1,79 @@
+<!DOCTYPE html> 
+<html lang="es">
+    <head>
+        <meta charset="utf-8"/>
+        <title>Megamanzx1</title>
+        <meta name="description"content="Esta es mi primer pagina web"/>
+        <meta name="author" content="lucas"/>
+        <meta name="keyword" content="mi primera pagina,dota,titulo"/>
+        <link rel="stylesheet" href="{{url_for('static',filename='estilos.css')}}">
+        <!--PARA TRAER A UNA URL EL ARCHIVO CSS-->
+    </head>
+    <body>
+        <div class="agrupar">
+            <header class="cabecera" >
+                <h1>Mi Blog</h1>
+            </header>
+            
+            <nav class="menu">
+                <ul>
+                    <li>Principal</li>
+                    <li>ayuda </li>
+                    <li>Contacto</li>
+                </ul>
+            </nav>
+    
+            <section class="seccion"> 
+                <article >
+                    <hgroup>
+                        <h1>Titulo del Primer articulo</h1>
+                        <h2>Subtitulo del primer articulo</h2>
+                    </hgroup>
+                    <time datetime="12-10-2018">Publicado 12-10-18</time>
+                    <p >Lorem ipsum dolor sit amet
+                        <small>consectetur adipisicing elit. Voluptas, dicta quisquam, </small> 
+                        <cite>itaque fuga unde quasi minus corporis sequi quaerat debitis libero mollitia? Placea</cite> itaque fuga unde quasi minus corporis sequi quaerat debitis libero mollitia? Placeat, qu
+                        od, est eius at iusto nisi, beatae adipisci facilis dolore doloribus labore neque nostrum possimus soluta.</p>
+                    <img src="megamanzx.png"/>
+                    <footer>
+                        <p>comentarios(0)</p>
+                    </footer>
+                    <address>
+                        <a href="http://google.com">TE ODIO</a>
+                    </address>
+                    
+                </article>
+                <article>
+                    <hgroup>
+                        <h1 >Titulo del Segundo articulo</h1>
+                        <h2>Subtitulo del segundo articulo</h2>
+                    </hgroup>
+                    
+                    <time datetime="12-10-2018">Publicado 12-10-18</time>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, dicta quisquam, molestias itaque fuga unde quasi minus corporis sequi quaerat debitis libero mollitia? Placeat, quod, est eius at iusto nisi, beatae adipisci facilis dolore doloribus labore neque nostrum possimus soluta.</p>
+                    <footer>
+                        <p>Comentarios(10)</p>
+                    </footer>
+                </article>
+              
+            </section>
+            <aside class="columna">
+                <blockquote cite="http://faztweb.com">
+                    Mensaje1
+                </blockquote>
+    
+                <blockquote cite="http://facebook.com">
+                    Mensaje2
+                </blockquote>
+            </aside>  
+    
+        <footer class="pie">
+                Derechos Reservados 2010-2018
+            </footer>
+            
+        </div>
+        
+    </body>
+
+
+</html>
